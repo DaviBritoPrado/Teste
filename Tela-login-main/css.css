@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family:'Poppins';
+    box-sizing: border-box;
+}
+#ma{
+    width:381px;
+    height:auto;
+}
+body{
+
+    background-color: #53947B;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+section{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-radius:5px;
+}
+.inputs{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+
+}
+#login{
+    height:44px;
+    width: 306px;
+    background-color: #f8f9f9;
+    border: none;
+    border-radius:4px;
+    padding-left:10px;
+    outline:none;
+    }
+#login::placeholder{
+    font-family: 'Poppins';
+    padding-left:10px;
+}
+#login:hover{
+    border:1px solid gray;
+}
+span{
+    display:flex;
+    justify-content: center;
+    margin-bottom:20px;
+    margin-top: 30px;
+    font-weight: 700;
+
+}
+img{
+    width: 20px;
+    height: auto;
+}
+button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#face{
+    background-color: rgb(24, 119, 242);
+    border-radius: 9.6px;
+    height: 32px;
+    width: 74px;
+    border:1px solid #1a73e6;
+}
+
+#google{
+    background-color: white;
+    border-radius: 9.6px;
+    height: 32px;
+    width: 74px;
+    border:1px solid gray;
+}
+
+#apple{
+    background-color: black;
+    border-radius: 9.6px;
+    height: 32px;
+    width: 74px;
+    border:1px solid black;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    gap:10px
+}
+label{
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+.check{
+    margin-left:20px;
+}
+#sect{
+    width:18px;
+    height:auto;
+
+}
+h3{
+    font-size: 13px;
+}
+
+.enviar{
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+}
+#entrar{
+    background:transparent;
+    border:1px solid gray;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:10px;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px;
+    margin-bottom:10px;
+    font-size:12px;
+    color: gray;
+}
+footer{
+    width:auto;
+    position:absolute;
+    bottom:20px;
+    left:30px;
+    right:30px;
+    color:white;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+
+}
+.suporte{
+    display: flex;
+    gap:10px;
+    border:1px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    font-size:13px;
+}
+h5:hover{
+    border-bottom:1px solid gray;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration:none;
+    color: gray;
+}
+
+@media(max-width:450px){
+    footer{
+        display:none;
+    }
+}
+@media (max-height: 650px) {
+    footer {
+       display:none;
+    }
+}
+

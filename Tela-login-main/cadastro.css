@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family:'Poppins';
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #53947B;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    flex-direction: column;
+
+}
+form{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left:20px;
+    margin-right:20px;    
+
+}
+input{
+    height: 44px;
+    background-color: #f8f9f9;
+    border: none;
+    border-radius: 4px;
+    padding-left: 10px;
+    outline: none;
+}
+span{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:30px;
+}
+section{
+    background-color: white;
+    border-radius: 5px;
+}
+img{
+    width: 20px;
+    height: auto;
+}
+#face{
+    background-color: rgb(24, 119, 242);
+    border-radius: 9.6px;
+    height: 32px;
+    width: 74px;
+    border:1px solid #1a73e6;
+    cursor: pointer;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#google{
+    background-color: white;
+    border-radius: 9.6px;
+    height: 32px;
+    width: 74px;
+    border:1px solid gray;
+    cursor: pointer;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#apple{
+    background-color: black;
+    border-radius: 9.6px;
+    height: 32px;
+    width: 74px;
+    border:1px solid black;
+    cursor: pointer;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    gap:10px
+}
+.enviar{
+    background: transparent;
+    border: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1{
+    font-size:12px;
+    margin-left:20px;
+}
+#ma{
+    width:381px;
+    height:auto;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    margin-bottom:20px;
+}
+h3{
+    font-size: 12px;
+    
+}
+a{
+    text-decoration: none;
+    color: black
+}
+#id{
+    width:10px;
+}
+@media (max-width: 768px){
+    .input1{
+        display:flex;
+        gap:2px
+    }
+}

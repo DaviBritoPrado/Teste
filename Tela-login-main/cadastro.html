@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <section>
+            <span>Criar uma conta</span>
+            <div class="inputs">
+            <form>
+                <input type="text" placeholder="Nome Completo" required>
+                <div class="input1">
+                    <input type="text"  placeholder="Usuário" required maxlength="30">  
+                    <input type="text"  placeholder="Data de nascimento" required maxlength="30">
+                </div>
+                <input type="email" placeholder="email" required pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" title="(00)0000-0000" maxlength="14"> 
+                <div class="input1">
+                    <input type="password"  placeholder="Senha" required maxlength="30">
+                    <input type="text"  placeholder="Localização" required maxlength="30">
+                 </div>
+                     <input type="text"  placeholder="Profissão" required maxlength="30">
+                <div class="botao">
+                    <button class="enviar"><img src="Imagens/icons8-seta-longa-à-direita.gif"></button>
+                </div>
+            </form>
+            </div>
+            <div class="login">
+                   <a href="index.html"><h3>eu já tenho conta </h3></a>
+                   <img src="Imagens/seta-direita.png" id="seta"> 
+            </div>
+    </section>
+</body>
+</html>
