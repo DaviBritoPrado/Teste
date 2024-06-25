@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,21 +10,54 @@
     <section>
             <span>Criar uma conta</span>
             <div class="inputs">
-            <form>
-                <input type="text" placeholder="Nome Completo" required>
-                <div class="input1">
-                    <input type="text"  placeholder="Usuário" required maxlength="30">  
-                    <input type="text"  placeholder="Data de nascimento" required maxlength="30">
+            <form id="form">
+
+                <input type="text"
+                id="nome"
+                placeholder="Nome Completo"
+                required>
+
+                <div class="input1">  
+                    <input 
+                    type="email"
+                    id="email"
+                    placeholder="email"
+                    maxlength="30">
+
+                    <input 
+                    type="password"
+                    id="password"
+                    placeholder="Senha" 
+                    required maxlength="30">
                 </div>
-                <input type="email" placeholder="email" required pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" title="(00)0000-0000" maxlength="14"> 
+
                 <div class="input1">
-                    <input type="password"  placeholder="Senha" required maxlength="30">
-                    <input type="text"  placeholder="Localização" required maxlength="30">
+                    <input 
+                    type="text"  
+                    placeholder="CPF"
+                    id="cpf" 
+                    required 
+                    maxlength="11">
+
+                    <input 
+                    type="text"  
+                    placeholder="Cidade"
+                    id="endereco" 
+                    required maxlength="30">
                  </div>
-                     <input type="text"  placeholder="Profissão" required maxlength="30">
+
+                <input 
+                type="text" 
+                id="interesse" 
+                placeholder="Ong de Interesse" 
+                required maxlength="30">
+
                 <div class="botao">
-                    <button class="enviar"><img src="Imagens/icons8-seta-longa-à-direita.gif"></button>
+                    <button id="send-btn" class="enviar">
+                        <img src="Imagens/icons8-seta-longa-à-direita.gif">
+                    </button>
                 </div>
+
             </form>
             </div>
             <div class="login">
@@ -32,5 +65,6 @@
                    <img src="Imagens/seta-direita.png" id="seta"> 
             </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
