@@ -1,6 +1,11 @@
 const email = document.getElementById('email');
 const senha = document.getElementById('password');
 const btnLogin = document.getElementById('btn-login');
+const loginForm = document.getElementById('login-form');
+
+loginForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+});
 
 email.addEventListener('change', () => {
   email = email.value;
