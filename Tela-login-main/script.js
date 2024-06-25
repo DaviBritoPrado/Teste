@@ -69,9 +69,15 @@ sendBtn.addEventListener('click', async function() {
   
   clearConsts();
 
+  const message = await result.json();
+
+  if (message.error) {
+    return window.alert(message.error);
+  }
+
   window.alert('Cadastro realizado com sucesso!');
 
-  window.location.href('https://teste-omhy.vercel.app/')
+  window.location.href='https://teste-omhy.vercel.app/Tela-login-main/index.html'
 })
 
 

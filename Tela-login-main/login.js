@@ -30,7 +30,13 @@ btnLogin.addEventListener('click', async () => {
   })
 
   const data = await result.json();
+  const status = result.status;
   console.log(data);
+
+  if(status !== 200) {
+    window.alert('Email ou senha incorretos!');
+    return;
+  }
 
   window.alert('Login efetuado com sucesso!')
 
