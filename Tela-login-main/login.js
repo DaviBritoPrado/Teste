@@ -1,5 +1,5 @@
-const email = document.getElementById('email');
-const senha = document.getElementById('password');
+const emailInput = document.getElementById('email');
+const passwordInput = document.getElementById('password');
 const btnLogin = document.getElementById('btn-login');
 const loginForm = document.getElementById('login-form');
 
@@ -8,12 +8,12 @@ loginForm.addEventListener('submit', (event) => {
 });
 
 email.addEventListener('change', () => {
-  email = email.value;
+  const email = emailInput.value;
   console.log(email);
 });
 
 const password = senha.addEventListener('change', () => {
-  senha = senha.value;
+  const senha = passwordInput.value;
   console.log(senha);
 });
 
