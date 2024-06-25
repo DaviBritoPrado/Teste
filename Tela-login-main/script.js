@@ -70,6 +70,8 @@ sendBtn.addEventListener('click', async function() {
   clearConsts();
 
   window.alert('Cadastro realizado com sucesso!');
+
+  window.location.href('https://teste-omhy.vercel.app/')
 })
 
 
