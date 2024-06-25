@@ -43,7 +43,7 @@ interesse.addEventListener('change', function() {
 const sendBtn = document.getElementById('send-btn');
 
 sendBtn.addEventListener('click', async function() {
-  const result = await fetch('http://localhost:8001/signin', {
+  const result = await fetch('http://backend-inova-one.vercel.app/signin', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
