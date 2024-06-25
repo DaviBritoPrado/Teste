@@ -18,7 +18,7 @@ const password = passwordInput.addEventListener('change', () => {
 });
 
 btnLogin.addEventListener('click', async () => {
-  const result = await fetch('https://backend-inova-jvvictorls-projects.vercel.app/login', {
+  const result = await fetch('https://backend-inova-one.vercel.app/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
