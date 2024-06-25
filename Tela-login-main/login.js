@@ -1,5 +1,5 @@
 const email = document.getElementById('email');
-const senha = document.getElementById('senha');
+const senha = document.getElementById('password');
 const btnLogin = document.getElementById('btn-login');
 
 email.addEventListener('change', () => {
