@@ -42,6 +42,15 @@ interesse.addEventListener('change', function() {
 
 const sendBtn = document.getElementById('send-btn');
 
+function clearConsts() {
+  nome.value = '';
+  emailInput.value = '';
+  passwordInput.value = '';
+  cpf.value = '';
+  endereco.value = '';
+  interesse.value = '';
+}
+
 sendBtn.addEventListener('click', async function() {
   const result = await fetch('https://backend-inova-jvvictorls-projects.vercel.app/signin', {
     method: 'POST',
@@ -57,10 +66,11 @@ sendBtn.addEventListener('click', async function() {
       interest: interesse.value
     })
   });
-  console.log(result)
+  
+  clearConsts();
 
-  const data = await result.json();
-
-  console.log(data);
-  console.log('clicou no botão')
+  window.alert('Cadastro realizado com sucesso!');
 })
+
+
+
