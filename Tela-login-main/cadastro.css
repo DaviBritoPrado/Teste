@@ -92,6 +92,7 @@ img{
 }
 .enviar{
     background: transparent;
+    cursor: pointer;
     border: 1px solid gray;
     padding-top: 10px;
     padding-bottom: 10px;
