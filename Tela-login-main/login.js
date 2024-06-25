@@ -24,8 +24,8 @@ btnLogin.addEventListener('click', async () => {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-      email: email.value,
-      password: senha.value
+      email: emailInput.value,
+      password: passwordInput.value
     })
   })
 
@@ -34,5 +34,5 @@ btnLogin.addEventListener('click', async () => {
 
   window.alert('Login efetuado com sucesso!')
 
-  window.location.href('https://teste-omhy.vercel.app/');
+  window.location.href='https://teste-omhy.vercel.app/'
 });
