@@ -7,12 +7,12 @@ loginForm.addEventListener('submit', (event) => {
   event.preventDefault();
 });
 
-email.addEventListener('change', () => {
+emailInput.addEventListener('change', () => {
   const email = emailInput.value;
   console.log(email);
 });
 
-const password = senha.addEventListener('change', () => {
+const password = passwordInput.addEventListener('change', () => {
   const senha = passwordInput.value;
   console.log(senha);
 });
