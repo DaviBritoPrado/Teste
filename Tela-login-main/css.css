@@ -13,8 +13,6 @@
 body{
     background-image: url("Imagens/f5e307d7-2272-461c-9c3a-3f6a8cb79b26.jpg");
     background-size: cover;
-    background-color: #53947B;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     height:100vh;
